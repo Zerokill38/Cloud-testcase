@@ -5,3 +5,11 @@
 Запустить тесты
 
  ```pytest test_API.py```
+
+ Собрать Docker образ
+
+ ```docker build -t pytest_runner .```
+
+ Запустить контейнер
+
+ ```docker run pytest_runner  ```
